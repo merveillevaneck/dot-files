@@ -12,6 +12,7 @@ hi NonText ctermbg=none
 hi LineNr ctermbg=none ctermfg=gray
 set cursorline
 set mouse=a
+set clipboard=unnamed
 set lazyredraw
 set completeopt=longest,menuone
 set wildmenu

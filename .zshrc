@@ -113,7 +113,8 @@ source $ZSH/oh-my-zsh.sh
 PROMPT='$FG[001]%n $FG[000]%~ $FG[002]$ %{$reset_color%}'
 
 
-alias config="mvim -v ~/.zshrc"
+alias configz="mvim -v ~/.zshrc"
+alias configv="mvim -v ~/.vimrc"
 alias src="source ~/.zshrc"
 alias c="clear"
 alias vim="mvim -v"
