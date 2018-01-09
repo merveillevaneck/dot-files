@@ -3,7 +3,7 @@ syntax enable
 colorscheme hydrangea
 filetype plugin indent on
 autocmd vimenter * NERDTree
-
+let NERDTreeShowHidden=1
 
 set number
 set numberwidth=2
@@ -51,7 +51,6 @@ inoremap /*		/*  */<Left><Left><Left>
 
 
 "syntastic settings
-set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
